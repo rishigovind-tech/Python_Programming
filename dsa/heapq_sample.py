@@ -17,3 +17,6 @@ print(H)
 A=[500, 1, 202, 510, 130, 59]
 heapq.heapify(A)
 print(A)
+
+print(heapq.nlargest(2,A))
+print(heapq.nsmallest(2,A))

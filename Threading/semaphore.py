@@ -9,7 +9,7 @@ def display(str1):
     l.release()
     
 
-l=Semaphore(2)
+l=Semaphore()
     
 t1 = Thread(target=display, args =('HELLO WORLD',))
 t2 = Thread(target=display, args=('you are welcome',))

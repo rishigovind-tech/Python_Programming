@@ -24,16 +24,16 @@
 
 # ========================
 
-file=open('my.dat','w+')
+# file=open('my.dat','w+')
 
-st= 'ABCDEFGH'
-file.write(st)
+# st= 'ABCDEFGH'
+# file.write(st)
 
-file.seek(0,0)
+# file.seek(0,0)
 
-print(file.read())
+# print(file.read())
 
-file.close()
+# file.close()
 
 
 

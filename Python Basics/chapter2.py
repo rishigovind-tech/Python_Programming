@@ -81,10 +81,10 @@
 #     print(num3, "is the greatest number")
     
     
-#Practice 3
-number= int(input("Enter the number: "))
+# #Practice 3
+# number= int(input("Enter the number: "))
 
-if(number % 7 ==0):
-    print("Multiple of 7")
-else:
-    print("Not multiple of 7")
+# if(number % 7 ==0):
+#     print("Multiple of 7")
+# else:
+#     print("Not multiple of 7")

@@ -75,13 +75,21 @@
 
 # 3
 
-marks={}
+# marks={}
 
 
-phy = int(input("enter phy marks : "))
-marks.update({"phy": phy})
-chem = int(input("enter chem marks : "))
-marks.update({"chem" : chem})
-maths = int(input("enter maths marks : "))
-marks.update({"maths" : maths})
-print(marks)
+# phy = int(input("enter phy marks : "))
+# marks.update({"phy": phy})
+# chem = int(input("enter chem marks : "))
+# marks.update({"chem" : chem})
+# maths = int(input("enter maths marks : "))
+# marks.update({"maths" : maths})
+# print(marks)
+
+
+# 4
+
+values = {9,"9.0"}
+print(values)
+
+

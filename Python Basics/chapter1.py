@@ -17,10 +17,10 @@
 # print(power) #power
 
 
-#Relational Operators
+# Relational Operators
 
-a=50
-b=20
+# a=50
+# b=20
 
 # print(a==b)
 # print(a!=b)
@@ -80,10 +80,10 @@ b=20
 
 # Practice 4
 
-a = int(input("First Number: "))
-b = int(input("Second Number: "))
+# a = int(input("First Number: "))
+# b = int(input("Second Number: "))
 
-print(a>=b)
+# print(a>=b)
 
 
 
