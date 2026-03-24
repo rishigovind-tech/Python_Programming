@@ -1,11 +1,17 @@
 import threading as th
+import time
 
-def display():
-    for i in range(65,91):
-        print(chr(i))
+class Alphabets(th.Thread):
+    def run(self):
+        for i in range(65,91):
+            print(chr(i))
+            time.sleep(1)
         
-t=th.Thread(target=display,name='Alphabets')
+t=Alphabets()
 t.start()
+
 for i in range(65,91):
     print(i)
-t.join
+    time.sleep(1)
+    
+t.join()
